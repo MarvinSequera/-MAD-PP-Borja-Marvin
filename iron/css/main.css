@@ -1,0 +1,122 @@
+h1{
+    font-size: 5em;
+    color: white;
+}
+h2{
+    padding-top: 30px;
+}
+h2,h3,h4{
+    font-size: 2em;
+}
+hr {
+    margin: 25px 0px;
+}
+a{
+    color:black
+}
+article{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.background{
+    background-image: url(./image/download.svg);
+    background-size: cover;
+    text-align: center;
+    background-position-y: -790px;
+    background-repeat: no-repeat;
+}
+.button{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    display: block;
+    padding: 17px 0;
+    width: 300px;
+    border-radius: 8px;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container li{
+    padding: 10px 15px;
+    list-style: none;
+    color: white;
+}
+.img-flag{
+    
+    width: 20px;
+    height: 15px;
+    /* Modificar tamano de bandeta*/
+}
+h1 + h2{
+    color: #32c3ff;
+    font-size: 3em;
+    padding: 0;
+}
+.color-white{
+    color:white
+}
+.button.center{
+    margin: 34px auto;
+    color: white;
+    background-color: #32c3ff;
+}
+.button.white{
+    color: white;
+    border-color: white;
+    width: 80px;
+    padding:4px;
+    border-radius: 0
+}
+.button.blue{
+    color: #32c3ff;
+    border-color: #32c3ff;
+    width: 450px;
+    margin-top: 30px;
+}
+.grey-center{
+    text-align: center;
+    color: rgba(45,53,76,0.4);
+}
+.around{
+    justify-content: space-around;
+}
+.around img{
+    width: 110px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.uppercase{
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    text-align: center;
+}
+.big-number{
+    font-size: 4em;
+}
+.small{
+    width: 100%;
+}
+.big-quote{
+    font-size: 1.9
+    em;
+    color: #F29025;
+}
+.box{
+    box-shadow: 3px 6px #F5FBEF ;
+}
+.center-padding{
+    text-align: center;
+    padding: 40px 0; /* se que esta mal*/
+}
+.back-grey{
+    background-color: #E6E6E6;
+    padding-bottom: 50px;
+}
+.nav-flex{
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+}
